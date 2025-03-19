@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string formattedTotalSales = totalSales.ToString("N2");
+            string formattedAveragePrice = average.ToString("N2");
         }
     }
 }
